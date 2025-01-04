@@ -1,24 +1,25 @@
-import NavItems from "../components/NavItems"
+// import NavItems from "../components/NavItems"
 
 function Nav () {
     return(
     <>
       <div className="nav">
-        <div>
-          <div>
-     < NavItems name="CHAMPION BET"/>
-     </div>
-     < NavItems name="sports betting"/>
-     < NavItems name="Live betting"/>
-     < NavItems name="slot"/>
-     < NavItems name="virtual Games"/>
-     < NavItems name="Aviator"/>
-     < NavItems name="Goal"/>
-     </div>
+      <div className="nav-items1">
+      <div>CHAMPION BET</div>
+      <div>sports betting</div>
+      <div>Live betting</div>
+      <span className="span1">39</span>
+      <div>slot</div>
+      <div>virtual Games</div>
+      <div>Aviator</div>
+      <div>Goal</div>
+      
+      </div>
 
-     <div>
-     < NavItems name="LogIn"/>
-     < NavItems name="Register"/>
+   <div className="nav-items2">
+    14:52
+     <div  className="login">LogIn</div>
+     <div  className="register">Register</div>
      </div>
     </div>
     </>
