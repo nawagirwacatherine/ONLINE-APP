@@ -61,5 +61,52 @@ text-decoration: underline;
   gap: 20px;
   color: azure;
   background-color: rgb(27, 27, 71);
-  margin: 20px;
+  margin: 15px;
+}
+
+.content {
+  height: 500px;
+  display: flex;
+  gap: 10px;
+
+  
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+align-self: flex-start;
+background-color: rgb(142, 131, 114);
+width: 30%;
+height: 500px;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  
+  flex-direction: column;
+align-self: flex-start;
+background-color: rgb(227, 227, 226);
+width: 60%;
+height: 500px;
+
+}
+
+.content2-item1 {
+  background-color: rgb(27, 27, 71) ;
+}
+
+.content2-item2 {
+
+}
+
+.content2-item3 {
+  background-color: rgb(27, 27, 71) ;
+}
+
+.content3 {
+  background-color: rgb(142, 131, 114);
+  width: 30%;
+
 }

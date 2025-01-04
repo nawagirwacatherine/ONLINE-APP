@@ -5,7 +5,7 @@ import Content3 from "../components/Content3"
 function Content () {
     return(
     <>
-      <div>
+      <div className="content">
         < Content1 />
         < Content2 />
         < Content3 />

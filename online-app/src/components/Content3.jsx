@@ -3,8 +3,9 @@ function Content3 () {
     return(
     <>
      
-    <div>TOP MATCHES</div>
+    <div className="content3">
     <div>BETTING TICKET</div>
+    </div>
       
     </>
     
