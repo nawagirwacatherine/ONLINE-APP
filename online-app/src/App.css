@@ -21,7 +21,7 @@
   color: rgb(27, 27, 71) ;
   background-color: rgb(79, 90, 140);
   padding: 9px;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 .nav-items1 {
@@ -30,11 +30,27 @@
   margin:10px;
 }
 
+.sports-betting{
+text-decoration: underline;
+ color: rgb(214, 129, 59);
+}
+
 .nav-items2 {
   display: flex;
   gap: 10px;
   margin:10px;
+  
 
 }
 
+.login {
+  border-radius: 2px;
+  padding: 5px;
+  background-color: rgb(189, 174, 163);
+}
 
+.register {
+  border-radius: 2px;
+  padding: 5px;
+  background-color: rgb(246, 128, 38);
+}
