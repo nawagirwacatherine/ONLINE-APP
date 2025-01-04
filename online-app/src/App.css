@@ -10,7 +10,7 @@
 
 .nav {
   justify-content: space-between;
-  padding: 25px;
+  padding: 2px;
   display: flex;
   gap: 20px;
   color: azure;
@@ -53,4 +53,13 @@ text-decoration: underline;
   border-radius: 2px;
   padding: 5px;
   background-color: rgb(246, 128, 38);
+}
+
+.nav2 {
+  display: flex;
+  padding: 15px;
+  gap: 20px;
+  color: azure;
+  background-color: rgb(27, 27, 71);
+  margin: 20px;
 }
