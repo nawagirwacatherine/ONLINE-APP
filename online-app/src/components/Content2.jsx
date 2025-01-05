@@ -3,6 +3,9 @@ import { FaBasketballBall } from "react-icons/fa";
 import { CgTennis } from "react-icons/cg";
 import { FaAnchor } from "react-icons/fa";
 import { FaHandBackFist } from "react-icons/fa6";
+import { GoArrowLeft } from "react-icons/go";
+import { GoArrowRight } from "react-icons/go";
+
 
 function Content2 () {
 
@@ -18,6 +21,9 @@ function Content2 () {
         <span><FaAnchor />Hokey</span>
         <span> <FaHandBackFist />
         Handball</span>
+
+        <div className="arrows"><GoArrowLeft /><GoArrowRight />
+        </div>
     
     </div>
     <div className="content2-item3">248 15:30</div>
