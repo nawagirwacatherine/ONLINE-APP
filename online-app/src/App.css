@@ -61,10 +61,11 @@ text-decoration: underline;
   gap: 20px;
   color: azure;
   background-color: rgb(27, 27, 71);
-  margin: 15px;
+  margin: 10px;
 }
 
 .content {
+  color: white;
   height: 500px;
   display: flex;
   gap: 10px;
@@ -95,13 +96,16 @@ height: 500px;
 
 .content2-item1 {
   background-color: rgb(27, 27, 71) ;
+  padding: 10px;
 }
 
 .content2-item2 {
+  padding: 10px;
 
 }
 
 .content2-item3 {
+  padding: 10px;
   background-color: rgb(27, 27, 71) ;
 }
 
