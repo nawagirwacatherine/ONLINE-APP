@@ -5,10 +5,12 @@ import { FaAnchor } from "react-icons/fa";
 import { FaHandBackFist } from "react-icons/fa6";
 import { GoArrowLeft } from "react-icons/go";
 import { GoArrowRight } from "react-icons/go";
+import { useState } from "react";
+import { ImStatsBars } from "react-icons/im";
 
 
 function Content2 () {
-
+ const [ num, setNum ]  = useState (282);
     return(
     <>
      
@@ -26,7 +28,26 @@ function Content2 () {
         </div>
     
     </div>
-    <div className="content2-item3">248 15:30</div>
+    <div className="content2-item3"></div>
+    <div className="content2-item4">{num}
+        <input type="time" name="" id="time" />
+        <button onClick = {() =>setNum(num + 1)}></button>
+    </div>
+    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /></span>
+    </div>
+    <div className="content2-item6">248 15:30 <span className="span-bar"><ImStatsBars /></span>
+    </div>
+    <div className="content2-item7">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
+    </div>
+    <div className="content2-item8">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
+    </div>
+    <div className="content2-item9">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
+    </div>
+    <div className="content2-item10">248 15:30 <span className="span-bar"> <ImStatsBars /> </span>
+    </div>
+    <div className="content2-item11">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
+    </div>
+   
     </div>
       
     </>

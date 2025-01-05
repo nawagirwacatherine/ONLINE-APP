@@ -6,6 +6,7 @@
 
 .app{
   width: 100%;
+  background-color: rgb(213, 217, 238);
 }
 
 .nav {
@@ -65,6 +66,7 @@ text-decoration: underline;
 }
 
 .content {
+  margin: 10px;
   color: white;
   height: 500px;
   display: flex;
@@ -77,12 +79,14 @@ text-decoration: underline;
   display: flex;
   flex-direction: column;
 align-self: flex-start;
+color: rgb(52, 52, 118);
 background-color: rgb(240, 239, 237);
 width: 30%;
 height: 500px;
 }
 
 .content2 {
+  color: black;
   display: flex;
   flex-direction: column;
   
@@ -94,7 +98,12 @@ height: 500px;
 
 }
 
+.span-bar { 
+  align-self: center;
+}
+
 .content2-item1 {
+  color: white;
   background-color: rgb(27, 27, 71) ;
   padding: 10px;
 }
@@ -109,13 +118,46 @@ height: 500px;
 }
 
 .content2-item3 {
-  padding: 10px;
+  padding: 20px;
   background-color: rgb(27, 27, 71) ;
+}
+
+.content2-item5{
+  border-bottom: 1px solid rgb(84, 83, 83);
+}
+
+.content2-item6{
+  border-bottom: 1px solid rgb(84, 83, 83);
+}
+.content2-item7{
+  border-bottom: 1px solid rgb(84, 83, 83);
+}
+
+.content2-item8{
+  border-bottom: 1px solid rgb(84, 83, 83);
+}
+
+.content2-item9{
+  border-bottom: 1px solid rgb(84, 83, 83);
+}
+
+.content2-item10{
+  border-bottom: 1px solid rgb(84, 83, 83);
+}
+
+.content2-item11{
+  border-bottom: 1px solid rgb(84, 83, 83);
 }
 
 .content3 {
   color: black;
-  background-color: rgb(240, 239, 237);
+  background-color: rgb(213, 217, 238);
   width: 30%;
 
+}
+
+.betting-ticket {
+  color: white;
+  background-color: rgb(27, 27, 71) ;
+  padding: 10px;
 }

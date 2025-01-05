@@ -4,7 +4,8 @@ function Content3 () {
     <>
      
     <div className="content3">
-    <div>BETTING TICKET</div>
+    <div className="betting-ticket">BETTING TICKET</div>
+    Betslip
     </div>
       
     </>
