@@ -17,11 +17,11 @@ function Content2 () {
     <div className="content2">
     <div className="content2-item1" >TOP MATCHES</div>
     <div className="content2-item2">
-        <span><IoMdFootball />soccer</span>
-        <span><FaBasketballBall />Basketball</span>
-        <span><CgTennis />Tenis</span>
-        <span><FaAnchor />Hokey</span>
-        <span> <FaHandBackFist />
+        <span className="soccer"><IoMdFootball />soccer</span>
+        <span className="basketball"><FaBasketballBall />Basketball</span>
+        <span className="tenis"><CgTennis />Tenis</span>
+        <span className="hokey"><FaAnchor />Hokey</span>
+        <span className="handball"> <FaHandBackFist />
         Handball</span>
 
         <div className="arrows"><GoArrowLeft /><GoArrowRight />

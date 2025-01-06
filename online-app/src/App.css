@@ -79,10 +79,17 @@ text-decoration: underline;
   display: flex;
   flex-direction: column;
 align-self: flex-start;
-color: rgb(52, 52, 118);
+color: rgb(27, 27, 27);
 background-color: rgb(240, 239, 237);
 width: 30%;
 height: 500px;
+gap: 20px;
+padding: 5px;
+}
+
+.span-content1 {
+  display: flex;
+  justify-content: space-between;
 }
 
 .content2 {
@@ -96,7 +103,10 @@ background-color: rgb(227, 227, 226);
 width: 60%;
 height: 500px;
 
+
 }
+
+
 
 .span-bar { 
   align-self: center;

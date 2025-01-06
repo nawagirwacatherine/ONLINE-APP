@@ -13,15 +13,34 @@ function Content1 () {
     return(
     <>
      
-    <div className="content1"><FaFlagUsa />
-    <GiUsaFlag />
-    <FaFlag />
-    <FaLandmarkFlag />
-    <GiCheckeredFlag />
-    <GiEuropeanFlag />
-    <GiSouthAfricaFlag />
-    <PiFlagCheckeredDuotone />
-    <CgFlag />
+    <div className="content1"><span className="span-content1"><FaFlagUsa />England Legue2
+    <button> 2</button>
+    </span>
+    <span className="span-content1"> <GiUsaFlag />INDIA ISL
+    <button> 1</button>
+    </span>
+    <span className="span-content1">  <FaFlag />IRAN Persian Gulf legue
+    <button> 6</button>
+    </span>
+    <span className="span-content1"> <FaLandmarkFlag />IRAQ Stars Legue
+    <button> 4</button>
+    </span>
+    <span className="span-content1"><GiCheckeredFlag />ISRAEL Legue haAl
+    <button> 1</button>
+    </span>
+    <span className="span-content1"> <GiEuropeanFlag /> ISRAEL Legue
+    <button> 3</button>
+    </span>
+    <span className="span-content1"> <GiSouthAfricaFlag />MALI Premiere Division
+    <button> 3</button>
+    </span>
+    <span className="span-content1"><PiFlagCheckeredDuotone />UGANDA Premier legue
+    <button> 5</button>
+    </span>
+    <span className="span-content1"> <CgFlag />Legue Goals
+    <button> 49</button>
+    </span>
+
     </div>
       
     </>
