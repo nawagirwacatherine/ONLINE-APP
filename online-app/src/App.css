@@ -106,6 +106,39 @@ height: 500px;
 
 }
 
+.soccer {
+ background-color:  rgb(214, 129, 59);
+ display: flex;
+ align-items: center;
+ border-radius: 2px;
+ padding: 5px;
+}
+
+.basketball {
+  display: flex;
+  align-items: center;
+}
+
+.tenis {
+  display: flex;
+  align-items: center;
+}
+
+.hokey {
+  display: flex;
+  align-items: center;
+}
+
+.handball {
+  display: flex;
+  align-items: center;
+}
+.arrow{
+  display: flex;
+  align-items: center;
+
+}
+
 
 
 .span-bar { 
