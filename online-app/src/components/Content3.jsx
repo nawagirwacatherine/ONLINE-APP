@@ -10,13 +10,14 @@ function Content3 () {
     <div className="betting-ticket"><button>login</button></div>
     Daily Jackport
 
-    <h1>JACKPOT</h1>
+    <h1 className="jackport">JACKPOT</h1>
 
     <div>
-   <div>Rocketman</div>
-   <div></div>
-   <div></div>
+   <div  className="rocketman" >Rocketman
+   <div  className="rocketpot"><span>1,948597.31 UGX</span><span>Rocketpot!</span> </div>
+   <div  className="boosterpot"><span>1,948597.31 UGX</span><span>Boosterpot!</span> </div>
 
+    </div>
     </div>
     </div>
 

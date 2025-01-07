@@ -207,6 +207,31 @@ height: 500px;
 
 }
 
+.jackport {
+  border: 20px dotted  rgb(214, 129, 59);
+}
+
+.rocketman{
+  padding: 5px;
+  color: aliceblue;
+  border-radius: 3px;
+  background-color: rgb(27, 27, 71) ;
+}
+
+.rocketpot {
+  border-radius: 3px;
+  margin: 2px;
+  padding: 5px;
+  background-color: rgb(21, 96, 177) ;
+}
+
+.boosterpot {
+  border-radius: 3px;
+  margin: 2px;
+  padding: 5px;
+  background-color: rgb(42, 59, 76) ;
+}
+
 .betting-ticket {
   color: white;
   background-color: rgb(27, 27, 71) ;
