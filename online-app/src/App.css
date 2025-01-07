@@ -45,14 +45,16 @@ text-decoration: underline;
 }
 
 .login {
-  border-radius: 2px;
-  padding: 5px;
   background-color: rgb(189, 174, 163);
+  border: none;
+  padding: 15px;
+  border-radius: 2px;
 }
 
 .register {
+  border: none;
+  padding: 8px;
   border-radius: 2px;
-  padding: 5px;
   background-color: rgb(246, 128, 38);
 }
 
