@@ -89,6 +89,12 @@ gap: 20px;
 padding: 5px;
 }
 
+.button-span {
+  background-color: blanchedalmond;
+  border: none;
+  padding: 8px;
+}
+
 .span-content1 {
   display: flex;
   justify-content: space-between;
