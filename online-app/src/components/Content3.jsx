@@ -5,10 +5,12 @@ function Content3 () {
      
     <div className="content3">
     <div className="betting-ticket">BETTING TICKET</div>
-    <div className="betting-ticket">  Betslip</div>
-    <div className="betting-ticket">click on odds to start betting</div>
-    <div className="betting-ticket"><button>login</button></div>
-    Daily Jackport
+    <div className="best-slip"> <div className="best-slip1"> Bet slip(0)</div> <div className="best-slip2">Express tickets</div></div>
+    <div className="bet-login">
+    <div className="bet-odds">click on odds to start betting</div>
+   <button className="bet-button">login</button>
+   </div>
+    <h1 className="jack-daily">Daily Jackport</h1>
 
     <h1 className="jackport">JACKPOT</h1>
 
