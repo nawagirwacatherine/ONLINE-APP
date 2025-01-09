@@ -20,8 +20,14 @@ function Content3 () {
    <div  className="boosterpot"><span>1,948597.31 UGX</span><span>Boosterpot!</span> </div>
 
     </div>
+
+    <div className="live"> 
+        <div>LIVE</div>
+        <div className="more">More</div>
     </div>
     </div>
+    </div>
+
 
     
       
