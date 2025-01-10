@@ -48,17 +48,17 @@ function Content2 () {
     </div>
     <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /></span>
     </div>
-    <div className="content2-item6">248 15:30 <span className="span-bar"><ImStatsBars /></span>
+    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /></span>
     </div>
-    <div className="content2-item7">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
+    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
     </div>
-    <div className="content2-item8">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
+    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
     </div>
-    <div className="content2-item9">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
+    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
     </div>
-    <div className="content2-item10">248 15:30 <span className="span-bar"> <ImStatsBars /> </span>
+    <div className="content2-item5">248 15:30 <span className="span-bar"> <ImStatsBars /> </span>
     </div>
-    <div className="content2-item11">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
+    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
     </div>
 
     <div className="live"> 

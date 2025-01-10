@@ -173,6 +173,12 @@ height: 500px;
 }
 
 .content2-item4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content2-item5 {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -291,3 +297,32 @@ font-size: 20px;
   background-color: rgb(27, 27, 71) ;
   padding: 10px;
 }
+/* 
+@media (min-width: 768px) {
+
+  .app {
+    flex-direction:row;
+    justify-content:space-between
+  }
+
+  .nav, .nav2 {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .content {
+    width: 60%;
+    text-align: left;
+  }
+
+  @media (min-width:1200px) {
+    .app{
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .content {
+      width: 70%;
+    }
+  }
+} */
