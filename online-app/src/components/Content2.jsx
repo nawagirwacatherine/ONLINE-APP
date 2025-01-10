@@ -1,3 +1,5 @@
+import PromoHeading from "./PromoHeading"
+
 import { IoMdFootball } from "react-icons/io";
 import { FaBasketballBall } from "react-icons/fa";
 import { CgTennis } from "react-icons/cg";
@@ -11,6 +13,11 @@ import { ImStatsBars } from "react-icons/im";
 
 function Content2 () {
  const [ num, setNum ]  = useState (282);
+
+ const data = {
+    heading: "99% off all items!",
+    callToAction: "Everything must go!"
+ }
     return(
     <>
      
@@ -28,7 +35,13 @@ function Content2 () {
         </div>
     
     </div>
-    <div className="content2-item3"></div>
+    <div className="content2-item3">
+
+    < PromoHeading  
+    heading = {Date.heading}
+    callToAction = {data. callToAction}
+    />
+    </div>
     <div className="content2-item4">{num}
         <input type="time" name="" id="time" />
         <button onClick = {() =>setNum(num + 1)}></button>
