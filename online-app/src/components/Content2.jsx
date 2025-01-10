@@ -1,4 +1,5 @@
 import PromoHeading from "./PromoHeading"
+import SubContent2 from "./SubContent2"
 
 import { IoMdFootball } from "react-icons/io";
 import { FaBasketballBall } from "react-icons/fa";
@@ -46,21 +47,17 @@ function Content2 () {
         <input type="time" name="" id="time" />
         <button onClick = {() =>setNum(num + 1)}></button>
     </div>
-    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /></span>
-    </div>
-    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /></span>
-    </div>
-    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
-    </div>
-    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
-    </div>
-    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
-    </div>
-    <div className="content2-item5">248 15:30 <span className="span-bar"> <ImStatsBars /> </span>
-    </div>
-    <div className="content2-item5">248 15:30 <span className="span-bar"><ImStatsBars /> </span>
-    </div>
 
+    < SubContent2 number= "282" time= "15:30" country="ENG"  team1="Tottenham"  team2="NewCastle"  number2="912"/>
+
+    < SubContent2 number= "282" time= "15:30" country="ENG"  team1="Aston Villa"  team2="Leicester"  number2="912"/>
+    < SubContent2 number= "" time= "15:30" country="ENG"  team1="Bournmouth"  team2="Everton"  number2="912"/>
+    < SubContent2 number= "282" time= "15:30" country="ENG"  team1="Crystal Palace"  team2="Chelsea"  number2="912"/>
+    < SubContent2 number= "282" time= "15:30" country="ENG"  team1="Manchester City"  team2="WestHam"  number2="912"/>
+    < SubContent2 number= "282" time= "15:30" country="ENG"  team1="SouthHampton"  team2="Brentford"  number2="912"/>
+    < SubContent2 number= "282" time= "15:30" country="ENG"  team1="Brighton"  team2="Arsenal"  number2="912"/>
+    < SubContent2 number= "282" time= "15:30" country="ENG"  team1="Nice"  team2="Renners"  number2="912"/>
+    < SubContent2 number= "282" time= "15:30" country="ENG"  team1="St Etienne"  team2="Renne"  number2="912"/>
     <div className="live"> 
         <div>LIVE</div>
         <div className="more">More</div>
