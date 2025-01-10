@@ -40,8 +40,10 @@ function Nav () {
     <button  className="register" onClick={handleRegisterClick}>Logout</button>
 
     { loginForm  && (
+
       <div className="login-form">
         <h3>Login</h3>
+        <form >
         <label>
           Email:
           <input type="email" placeholder ="Enter your email" />
@@ -55,11 +57,13 @@ function Nav () {
         <br />
 
         <button>submit</button>
+        </form>
         <div/>
       
-        {registerSuccessMessage && <p className="success-message">Registration successful!</p> }
+        {registerSuccessMessage && (<p className="success-message">Registration successful!</p> )}
 
       </div>
+     
     )}
      </div>
     </div>

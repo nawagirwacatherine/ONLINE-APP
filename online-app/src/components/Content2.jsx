@@ -38,7 +38,7 @@ function Content2 () {
     <div className="content2-item3">
 
     < PromoHeading  
-    heading = {Date.heading}
+    head = {data.heading}
     callToAction = {data. callToAction}
     />
     </div>
